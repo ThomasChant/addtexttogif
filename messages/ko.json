@@ -1,0 +1,220 @@
+{
+  "Navigation": {
+    "home": "홈",
+    "tutorial": "사용 가이드",
+    "faq": "자주 묻는 질문",
+    "menuTitle": "메뉴"
+  },
+  "Footer": {
+    "tagline": "애니메이션 GIF에 원하는 언어로 자막과 말풍선을 정밀하게 디자인하세요.",
+    "productTitle": "제품",
+    "resourcesTitle": "자료",
+    "openSourceTitle": "오픈 소스",
+    "openSourceDescription": "{repo} 프로젝트에서 영감을 받아 전문 자막 작업 흐름으로 확장했습니다.",
+    "rights": "All rights reserved.",
+    "links": {
+      "home": "홈",
+      "tutorial": "사용 가이드",
+      "faq": "FAQ",
+      "editor": "편집 시작하기",
+      "workflow": "워크플로 가이드",
+      "licensing": "라이선스",
+      "privacy": "개인정보",
+      "support": "지원"
+    }
+  },
+  "Editor": {
+    "title": "인터랙티브 GIF 자막 스튜디오",
+    "subtitle": "GIF를 업로드하고 스타일이 적용된 텍스트 오버레이를 배치해 몇 분 만에 완성도 높은 애니메이션을 만들어요.",
+    "upload": {
+      "label": "애니메이션 GIF 업로드",
+      "hint": "모든 처리는 브라우저에서만 이루어집니다. 서버에 어떤 파일도 저장하지 않습니다.",
+      "placeholder": "GIF 파일을 끌어다 놓거나 파일 선택기를 사용하세요"
+    },
+    "defaults": {
+      "overlayText": "자막을 입력하세요"
+    },
+    "errors": {
+      "generic": "GIF를 처리하는 중 문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "preview": {
+      "alt": "미리보기 프레임 {index}"
+    },
+    "actions": {
+      "play": "재생",
+      "pause": "일시정지",
+      "resetPlayback": "처음으로",
+      "addOverlay": "오버레이 추가",
+      "remove": "삭제",
+      "renderGif": "GIF 렌더링",
+      "rendering": "렌더링 중...",
+      "downloadGif": "GIF 다운로드"
+    },
+    "timeline": {
+      "total": "총 재생 시간: {duration}",
+      "position": "현재 위치: {current}",
+      "frameLabel": "프레임 {index}",
+      "framesTitle": "추출된 프레임",
+      "framesDescription": "모든 프레임을 추출하여 밀리초 단위 타이밍을 쉽게 확인할 수 있습니다."
+    },
+    "overlays": {
+      "title": "타임라인 오버레이",
+      "description": "여러 자막과 콜아웃을 만들고 스타일 템플릿을 선택한 뒤 미리보기에서 직접 드래그해 배치하세요.",
+      "itemTitle": "오버레이",
+      "fields": {
+        "text": "자막 텍스트",
+        "start": "시작 (ms)",
+        "end": "종료 (ms)",
+        "template": "템플릿"
+      },
+      "hints": {
+        "drag": "미리보기에서 오버레이를 드래그해 위치를 미세 조정하세요.",
+        "duration": "시작과 종료 시간은 프레임 정확도를 위해 밀리초 단위로 입력합니다."
+      },
+      "empty": "첫 번째 오버레이를 추가해 자막 디자인을 시작하세요."
+    },
+    "export": {
+      "title": "내보내기",
+      "description": "오버레이가 적용된 새 GIF를 렌더링합니다. 모든 처리는 브라우저에서만 수행됩니다."
+    }
+  },
+  "Home": {
+    "heroTitle": "영상 자막처럼 정밀하게 GIF에 글자 추가",
+    "heroSubtitle": "GIF를 프레임으로 분해하고 타임라인에 자막을 맞춰 브라우저만으로 스튜디오급 애니메이션을 완성하세요.",
+    "heroPrimaryCta": "편집 시작하기",
+    "heroSecondaryCta": "튜토리얼 보기",
+    "featureTitle": "AddTextToGIF가 선택받는 이유",
+    "featureSubtitle": "마케터, 교육자, 밈 크리에이터를 위한 픽셀 단위 자막 도구입니다.",
+    "features": {
+      "split": {
+        "title": "프레임별 제어",
+        "description": "모든 GIF 프레임을 자동으로 분리하고 지연 시간을 보여주어 언제 무엇이 나오는지 항상 파악할 수 있습니다."
+      },
+      "timeline": {
+        "title": "영상 스타일 타임라인",
+        "description": "상호작용 재생 컨트롤로 밀리초 단위로 여러 오버레이를 동기화하세요."
+      },
+      "drag": {
+        "title": "드래그 앤 드롭 배치",
+        "description": "미리보기 위에 직접 끌어다 놓아 좌표를 추측할 필요 없이 자막 위치를 잡을 수 있습니다."
+      },
+      "templates": {
+        "title": "디자이너 템플릿",
+        "description": "자막, 소셜 프로모션, 튜토리얼 콜아웃에서 영감을 받은 세련된 타이포그래피 프리셋을 선택하세요."
+      }
+    },
+    "workflowTitle": "완성까지 3단계",
+    "workflowSubtitle": "복잡함은 줄이고 전문가용 자막 도구의 흐름은 그대로 담았습니다.",
+    "workflow": {
+      "upload": {
+        "title": "1. GIF 업로드",
+        "description": "파일을 끌어놓거나 링크를 붙여넣으면 원본 타이밍과 함께 선명한 프레임을 추출합니다."
+      },
+      "overlay": {
+        "title": "2. 오버레이 구성",
+        "description": "자막을 추가하고 템플릿을 선택한 뒤 정확한 위치에 드래그하세요."
+      },
+      "review": {
+        "title": "3. 타임라인 검토",
+        "description": "타임라인을 스크럽하며 오버레이가 의도한 순간에 맞춰졌는지 확인하세요."
+      },
+      "export": {
+        "title": "4. 내보내기 및 공유",
+        "description": "렌더링 후 바로 다운로드하여 소셜, 이메일, 메신저 어디서든 공유하세요."
+      }
+    },
+    "faqPreviewTitle": "시작하기 전에 궁금한가요?",
+    "faqPreviewSubtitle": "FAQ에서 파일 제한, 라이선스, 개인정보, 협업 팁을 모두 확인하세요.",
+    "faqPreviewCta": "FAQ 살펴보기"
+  },
+  "Tutorial": {
+    "title": "단계별 튜토리얼",
+    "intro": "이 가이드를 따라 원본 GIF에서 타이밍이 완벽한 자막 애니메이션까지 만들어 보세요.",
+    "sections": {
+      "prepare": {
+        "title": "1. 소스 준비",
+        "content": "고품질 GIF를 선택하거나 짧은 동영상 클립을 변환하세요. 30초 이하 길이가 가장 안정적입니다."
+      },
+      "upload": {
+        "title": "2. 업로드 및 프레임 확인",
+        "content": "홈 페이지 업로더를 사용하세요. 처리가 끝나면 추출된 프레임을 스크롤하며 속도를 파악합니다."
+      },
+      "design": {
+        "title": "3. 오버레이 디자인",
+        "content": "각 메시지마다 오버레이를 추가하고 템플릿 선택, 문구 편집, 시작/종료 시간 조정을 진행하세요."
+      },
+      "render": {
+        "title": "4. 렌더링 및 배포",
+        "content": "GIF 렌더링을 클릭한 뒤 결과를 다운로드하여 이메일, 채팅, 소셜 채널에 활용하세요."
+      }
+    },
+    "workflowHeading": "워크플로 팁",
+    "workflowItems": {
+      "shortcuts": {
+        "title": "키보드 단축키",
+        "description": "스페이스바로 재생/일시정지를 전환하고 방향키로 타임라인을 100ms씩 이동하세요."
+      },
+      "styles": {
+        "title": "템플릿 조정",
+        "description": "오버레이를 복제해 장면마다 다른 스타일을 조합하세요. 템플릿이 일관된 타이포그래피를 보장합니다."
+      },
+      "export": {
+        "title": "최적화된 내보내기",
+        "description": "렌더링된 GIF는 자동으로 압축되어 추가 도구 없이 바로 공유할 수 있습니다."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "자주 묻는 질문",
+    "intro": "지원 형식, 개인정보, 협업 방법까지 핵심 정보를 모두 모았습니다.",
+    "items": {
+      "files": {
+        "question": "어떤 GIF 크기를 지원하나요?",
+        "answer": "20MB 이하 파일을 권장합니다. 더 큰 파일도 브라우저에서 로컬로 처리하지만 시간이 더 걸릴 수 있습니다."
+      },
+      "privacy": {
+        "question": "GIF가 서버로 업로드되나요?",
+        "answer": "아니요. 디코딩, 편집, 렌더링은 모두 브라우저에서 이루어집니다. 어떤 데이터도 기기를 벗어나지 않습니다."
+      },
+      "fonts": {
+        "question": "사용자 지정 폰트를 사용할 수 있나요?",
+        "answer": "가능합니다. 브랜드 스타일시트에 CSS 폰트 URL을 추가하면 기본 템플릿과 함께 표시됩니다."
+      },
+      "licensing": {
+        "question": "이 프로젝트는 오픈 소스인가요?",
+        "answer": "예. text-on-gif 프로젝트에서 영감을 받았으며 MIT 라이선스로 배포됩니다."
+      },
+      "support": {
+        "question": "어떻게 지원을 받을 수 있나요?",
+        "answer": "튜토리얼에서 문제 해결 팁을 확인하거나 GitHub 이슈를 열어 기능을 요청하세요."
+      }
+    }
+  },
+  "SEO": {
+    "siteName": "AddTextToGIF",
+    "home": {
+      "title": "GIF에 텍스트 추가 | 타임라인 자막 편집기",
+      "description": "무료 Next.js GIF 자막 스튜디오. 프레임 분해, 타임라인 정렬, 브라우저에서 바로 자막 GIF 내보내기.",
+      "keywords": "gif 텍스트, gif 자막, add text to gif, gif timeline editor",
+      "canonical": "/",
+      "h1": "영화 같은 자막으로 GIF에 텍스트 추가",
+      "h2": "몇 초 만에 자막, 콜아웃, 밈 텍스트를 완성하세요."
+    },
+    "tutorial": {
+      "title": "GIF에 글자 넣는 방법 | 단계별 튜토리얼",
+      "description": "GIF 프레임 분해, 오버레이 디자인, 자막 애니메이션 내보내기 과정을 AddTextToGIF에서 배우세요.",
+      "keywords": "gif 튜토리얼, gif 자막 추가, gif text guide",
+      "canonical": "/tutorial",
+      "h1": "자막 GIF 제작 단계별 가이드",
+      "h2": "업로드부터 내보내기까지 전 과정을 익히세요."
+    },
+    "faq": {
+      "title": "AddTextToGIF FAQ | 파일 제한·개인정보·라이선스",
+      "description": "지원 GIF 크기, 개인정보 보호, 오픈소스 라이선스, 협업 기능에 대한 답변을 확인하세요.",
+      "keywords": "gif 편집 faq, gif caption privacy, gif tool licensing",
+      "canonical": "/faq",
+      "h1": "자주 묻는 질문",
+      "h2": "파일, 개인정보, 지원에 대한 답변."
+    }
+  }
+}
