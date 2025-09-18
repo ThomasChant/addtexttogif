@@ -1,0 +1,220 @@
+{
+  "Navigation": {
+    "home": "首页",
+    "tutorial": "教程",
+    "faq": "常见问题",
+    "menuTitle": "菜单"
+  },
+  "Footer": {
+    "tagline": "为任何语言的动图设计定时字幕、说明和重点标注。",
+    "productTitle": "产品",
+    "resourcesTitle": "资源",
+    "openSourceTitle": "开源",
+    "openSourceDescription": "灵感来自 {repo}，并针对专业字幕工作流进行了拓展。",
+    "rights": "保留所有权利。",
+    "links": {
+      "home": "首页",
+      "tutorial": "教程",
+      "faq": "常见问题",
+      "editor": "立即编辑",
+      "workflow": "流程指南",
+      "licensing": "许可协议",
+      "privacy": "隐私",
+      "support": "支持"
+    }
+  },
+  "Editor": {
+    "title": "交互式 GIF 字幕工作室",
+    "subtitle": "上传 GIF、放置带样式的文字叠加层，在数分钟内输出精致动画。",
+    "upload": {
+      "label": "上传动图 GIF",
+      "hint": "我们只在浏览器本地处理文件，不会上传到服务器。",
+      "placeholder": "拖拽 GIF 到此处或使用文件选择器"
+    },
+    "defaults": {
+      "overlayText": "在此输入字幕"
+    },
+    "errors": {
+      "generic": "处理 GIF 时出现问题，请重试。"
+    },
+    "preview": {
+      "alt": "预览帧 {index}"
+    },
+    "actions": {
+      "play": "播放",
+      "pause": "暂停",
+      "resetPlayback": "重置",
+      "addOverlay": "新增叠加层",
+      "remove": "删除",
+      "renderGif": "渲染 GIF",
+      "rendering": "正在渲染...",
+      "downloadGif": "下载 GIF"
+    },
+    "timeline": {
+      "total": "总时长：{duration}",
+      "position": "当前位置：{current}",
+      "frameLabel": "第 {index} 帧",
+      "framesTitle": "已提取帧",
+      "framesDescription": "自动拆分每一帧，帮助你以毫秒级精度审查时间点。"
+    },
+    "overlays": {
+      "title": "定时叠加层",
+      "description": "创建多个字幕或标注，选择样式模板，并在预览中拖放到合适位置。",
+      "itemTitle": "叠加层",
+      "fields": {
+        "text": "字幕内容",
+        "start": "开始时间（毫秒）",
+        "end": "结束时间（毫秒）",
+        "template": "模板"
+      },
+      "hints": {
+        "drag": "在预览画面中拖动以微调位置。",
+        "duration": "开始与结束时间以毫秒为单位，实现逐帧精准字幕。"
+      },
+      "empty": "添加第一个叠加层，开始设计字幕。"
+    },
+    "export": {
+      "title": "导出",
+      "description": "在浏览器本地渲染带字幕的新 GIF，无需上传。"
+    }
+  },
+  "Home": {
+    "heroTitle": "像视频一样为 GIF 添加文字",
+    "heroSubtitle": "拆分每一帧、在时间轴上对齐字幕，直接在浏览器中导出专业级动画。",
+    "heroPrimaryCta": "开始编辑",
+    "heroSecondaryCta": "查看教程",
+    "featureTitle": "为什么创作者都选择 AddTextToGIF",
+    "featureSubtitle": "为营销、教学和表情包创作者打造的像素级字幕工具。",
+    "features": {
+      "split": {
+        "title": "逐帧掌控",
+        "description": "自动拆分 GIF 并展示每帧延迟，清楚知道何时出现什么内容。"
+      },
+      "timeline": {
+        "title": "视频式时间轴",
+        "description": "借助互动播放控制，将多个叠加层以毫秒级精度同步。"
+      },
+      "drag": {
+        "title": "拖拽定位",
+        "description": "在预览画布上直接拖动字幕，无需猜测坐标。"
+      },
+      "templates": {
+        "title": "设计师模板",
+        "description": "精选字幕、推广和教程标注等风格的排版预设。"
+      }
+    },
+    "workflowTitle": "三步完成成品 GIF",
+    "workflowSubtitle": "保留专业字幕软件的流程，却没有复杂度。",
+    "workflow": {
+      "upload": {
+        "title": "1. 上传 GIF",
+        "description": "拖拽文件或粘贴链接，即可提取清晰帧及其原始时间。"
+      },
+      "overlay": {
+        "title": "2. 设计叠加层",
+        "description": "添加字幕、选择模板，并拖到准确位置。"
+      },
+      "review": {
+        "title": "3. 检查时间轴",
+        "description": "拖动时间轴，确认每个叠加层都在正确时刻出现。"
+      },
+      "export": {
+        "title": "4. 导出与分享",
+        "description": "渲染并下载成品 GIF，适用于社交媒体、电邮和聊天。"
+      }
+    },
+    "faqPreviewTitle": "开始前还有疑问？",
+    "faqPreviewSubtitle": "常见问题涵盖文件限制、许可、隐私与协作技巧。",
+    "faqPreviewCta": "查看常见问题"
+  },
+  "Tutorial": {
+    "title": "逐步操作教程",
+    "intro": "按照此指南，从原始 GIF 走到定时字幕动画。",
+    "sections": {
+      "prepare": {
+        "title": "1. 准备素材",
+        "content": "选择高质量 GIF 或从短视频转换，建议时长控制在 30 秒内。"
+      },
+      "upload": {
+        "title": "2. 上传并检查帧",
+        "content": "在首页上传，处理完成后滚动查看提取的帧，了解节奏。"
+      },
+      "design": {
+        "title": "3. 设计叠加层",
+        "content": "为每条信息新增叠加层，选择模板、编辑文案、调整起止时间并拖动定位。"
+      },
+      "render": {
+        "title": "4. 渲染并发布",
+        "content": "点击“渲染 GIF”，完成后下载结果，可嵌入邮件、聊天或社交平台。"
+      }
+    },
+    "workflowHeading": "进阶技巧",
+    "workflowItems": {
+      "shortcuts": {
+        "title": "快捷键",
+        "description": "使用空格键播放/暂停，方向键以 100 毫秒步长微调时间轴。"
+      },
+      "styles": {
+        "title": "模板微调",
+        "description": "复制叠加层即可在不同场景混合风格，模板确保字体一致。"
+      },
+      "export": {
+        "title": "导出优化",
+        "description": "渲染后的 GIF 自动压缩，可直接分享，无需额外工具。"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "常见问题",
+    "intro": "了解支持的文件、隐私保障以及协作方式。",
+    "items": {
+      "files": {
+        "question": "支持多大的 GIF？",
+        "answer": "建议文件大小不超过 20 MB。更大的文件也可以处理，但可能耗时更长，且依旧在浏览器本地完成。"
+      },
+      "privacy": {
+        "question": "我的 GIF 会被上传吗？",
+        "answer": "不会。解码、编辑和渲染全部在浏览器中完成，数据不会离开设备。"
+      },
+      "fonts": {
+        "question": "可以使用自定义字体吗？",
+        "answer": "可以。在品牌样式中引入 CSS 字体链接，即可与内置模板一起使用。"
+      },
+      "licensing": {
+        "question": "这是开源项目吗？",
+        "answer": "是的。该编辑器受 text-on-gif 项目启发，以 MIT 许可发布。"
+      },
+      "support": {
+        "question": "如何获得支持？",
+        "answer": "请查看教程中的排障建议，或在 GitHub 提交功能需求。"
+      }
+    }
+  },
+  "SEO": {
+    "siteName": "AddTextToGIF",
+    "home": {
+      "title": "在线为 GIF 添加字幕 | 时间轴文字编辑器",
+      "description": "免费 Next.js GIF 字幕工作室。拆分帧、在时间轴对齐叠加层，并在浏览器中导出字幕动图。",
+      "keywords": "gif 加字, gif 字幕, gif 字幕制作, gif 时间轴编辑",
+      "canonical": "/",
+      "h1": "为 GIF 添加电影级字幕",
+      "h2": "几秒钟内创建字幕、标注与表情包文字。"
+    },
+    "tutorial": {
+      "title": "如何为 GIF 添加文字 | 详细教程",
+      "description": "学习如何拆分 GIF、设计叠加层，并用 AddTextToGIF 导出字幕动画。",
+      "keywords": "gif 教程, gif 加字幕, gif 文字指南",
+      "canonical": "/tutorial",
+      "h1": "GIF 字幕制作全流程",
+      "h2": "掌握从上传到导出的每一步。"
+    },
+    "faq": {
+      "title": "AddTextToGIF 常见问题 | 文件限制、隐私与许可",
+      "description": "了解支持的 GIF 规格、隐私保障、开源许可与协作功能。",
+      "keywords": "gif 编辑常见问题, gif 字幕隐私, gif 工具许可",
+      "canonical": "/faq",
+      "h1": "常见问题",
+      "h2": "关于文件、隐私与支持的解答。"
+    }
+  }
+}

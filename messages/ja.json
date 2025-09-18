@@ -1,0 +1,220 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "tutorial": "チュートリアル",
+    "faq": "FAQ",
+    "menuTitle": "メニュー"
+  },
+  "Footer": {
+    "tagline": "あらゆる言語のGIFアニメに、時間付きの字幕・注釈・コールアウトをデザインできます。",
+    "productTitle": "プロダクト",
+    "resourcesTitle": "リソース",
+    "openSourceTitle": "オープンソース",
+    "openSourceDescription": "{repo} をベースに、プロ向けの字幕ワークフローに対応するよう拡張しました。",
+    "rights": "All rights reserved.",
+    "links": {
+      "home": "ホーム",
+      "tutorial": "チュートリアル",
+      "faq": "FAQ",
+      "editor": "エディターを使う",
+      "workflow": "ワークフローガイド",
+      "licensing": "ライセンス",
+      "privacy": "プライバシー",
+      "support": "サポート"
+    }
+  },
+  "Editor": {
+    "title": "インタラクティブGIF字幕スタジオ",
+    "subtitle": "GIFをアップロードし、スタイル付きテキストを配置して、数分で完成したアニメーションを出力します。",
+    "upload": {
+      "label": "GIFアニメをアップロード",
+      "hint": "処理はブラウザ内で完結し、サーバーに保存されることはありません。",
+      "placeholder": "ここにGIFをドロップするか、ファイルを選択"
+    },
+    "defaults": {
+      "overlayText": "字幕を追加"
+    },
+    "errors": {
+      "generic": "GIFの処理中にエラーが発生しました。もう一度お試しください。"
+    },
+    "preview": {
+      "alt": "プレビュー フレーム {index}"
+    },
+    "actions": {
+      "play": "再生",
+      "pause": "一時停止",
+      "resetPlayback": "リセット",
+      "addOverlay": "オーバーレイを追加",
+      "remove": "削除",
+      "renderGif": "GIFをレンダリング",
+      "rendering": "レンダリング中...",
+      "downloadGif": "GIFをダウンロード"
+    },
+    "timeline": {
+      "total": "合計時間: {duration}",
+      "position": "現在位置: {current}",
+      "frameLabel": "フレーム {index}",
+      "framesTitle": "抽出されたフレーム",
+      "framesDescription": "全フレームを抽出するので、ミリ秒単位でタイミングを確認できます。"
+    },
+    "overlays": {
+      "title": "時間指定オーバーレイ",
+      "description": "複数の字幕やコールアウトを作成し、テンプレートを選んでプレビュー上にドラッグ＆ドロップ。",
+      "itemTitle": "オーバーレイ",
+      "fields": {
+        "text": "字幕テキスト",
+        "start": "開始 (ms)",
+        "end": "終了 (ms)",
+        "template": "テンプレート"
+      },
+      "hints": {
+        "drag": "プレビュー内でドラッグして位置を微調整できます。",
+        "duration": "開始と終了はミリ秒単位で設定し、フレーム精度の字幕を実現します。"
+      },
+      "empty": "最初のオーバーレイを追加して字幕デザインを始めましょう。"
+    },
+    "export": {
+      "title": "エクスポート",
+      "description": "オーバーレイを適用した新しいGIFをブラウザ内でレンダリングします。アップロードは不要です。"
+    }
+  },
+  "Home": {
+    "heroTitle": "動画編集の精度でGIFにテキストを追加",
+    "heroSubtitle": "GIFをフレームごとに分解し、タイムラインに字幕をマッピングして、ブラウザだけで高品質なアニメーションを出力。",
+    "heroPrimaryCta": "編集を始める",
+    "heroSecondaryCta": "チュートリアルを見る",
+    "featureTitle": "AddTextToGIF が選ばれる理由",
+    "featureSubtitle": "マーケター、教育者、ミームクリエイターのためのピクセル精度の字幕ツール。",
+    "features": {
+      "split": {
+        "title": "フレーム単位のコントロール",
+        "description": "各フレームを自動で分割し、遅延時間を表示。どの瞬間に何が表示されるか把握できます。"
+      },
+      "timeline": {
+        "title": "動画さながらのタイムライン",
+        "description": "インタラクティブな再生コントロールで複数オーバーレイをミリ秒単位で同期。"
+      },
+      "drag": {
+        "title": "ドラッグ&ドロップ配置",
+        "description": "プレビューキャンバス上で直感的に字幕を配置、座標を推測する必要はありません。"
+      },
+      "templates": {
+        "title": "デザイナー監修テンプレート",
+        "description": "字幕やソーシャルプロモ、チュートリアル用の洗練されたタイポグラフィプリセットを用意。"
+      }
+    },
+    "workflowTitle": "完成までの3ステップ",
+    "workflowSubtitle": "プロ用スイートのワークフローをシンプルに再現。",
+    "workflow": {
+      "upload": {
+        "title": "1. GIFをアップロード",
+        "description": "ファイルをドラッグまたはリンクを貼り付け、鮮明なフレームと元のタイミングを取得します。"
+      },
+      "overlay": {
+        "title": "2. オーバーレイを作成",
+        "description": "字幕を追加し、テンプレートを選んで表示位置を決定します。"
+      },
+      "review": {
+        "title": "3. タイムライン確認",
+        "description": "タイムラインをスクラブして、すべてのオーバーレイが狙い通りのタイミングで表示されるか確認します。"
+      },
+      "export": {
+        "title": "4. エクスポートと共有",
+        "description": "レンダリングしてダウンロード。SNSやメール、チャットですぐに共有できます。"
+      }
+    },
+    "faqPreviewTitle": "始める前に知りたいことは？",
+    "faqPreviewSubtitle": "FAQ ではファイル上限、ライセンス、プライバシー、コラボ術を解説。",
+    "faqPreviewCta": "FAQを見る"
+  },
+  "Tutorial": {
+    "title": "ステップバイステップガイド",
+    "intro": "このガイドに従えば、生のGIFからタイミング完璧な字幕付きアニメーションを作れます。",
+    "sections": {
+      "prepare": {
+        "title": "1. 素材の準備",
+        "content": "高品質なGIF、もしくは短い動画クリップを変換しましょう。30秒以内が理想です。"
+      },
+      "upload": {
+        "title": "2. アップロードとフレーム確認",
+        "content": "ホームページのアップローダーを使い、処理後は抽出されたフレームでテンポを確認します。"
+      },
+      "design": {
+        "title": "3. オーバーレイをデザイン",
+        "content": "メッセージごとにオーバーレイを追加。テンプレート選択、テキスト編集、開始/終了時間の調整、位置決めを行います。"
+      },
+      "render": {
+        "title": "4. レンダリングと公開",
+        "content": "「GIFをレンダリング」をクリック。生成後はダウンロードし、メールやチャット、SNSに埋め込みましょう。"
+      }
+    },
+    "workflowHeading": "ワークフローのコツ",
+    "workflowItems": {
+      "shortcuts": {
+        "title": "キーボードショートカット",
+        "description": "スペースで再生/停止、矢印キーで100ms単位の移動ができます。"
+      },
+      "styles": {
+        "title": "テンプレート微調整",
+        "description": "オーバーレイを複製してシーンごとにスタイルを変えられます。テンプレートが統一感のある書体を維持します。"
+      },
+      "export": {
+        "title": "最適化されたエクスポート",
+        "description": "レンダリングされたGIFは自動的に圧縮され、追加ツール不要ですぐ共有可能。"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "intro": "対応ファイル、プライバシー、コラボレーションに関する情報をまとめています。",
+    "items": {
+      "files": {
+        "question": "どのくらいのサイズのGIFに対応していますか？",
+        "answer": "推奨サイズは20MBまでです。より大きなファイルも処理できますが時間がかかり、処理はすべてローカルで行われます。"
+      },
+      "privacy": {
+        "question": "GIFはサーバーにアップロードされますか？",
+        "answer": "いいえ。デコード、編集、レンダリングはすべてブラウザ内で行われ、データが端末から出ることはありません。"
+      },
+      "fonts": {
+        "question": "独自のフォントを使えますか？",
+        "answer": "はい。ブランドのスタイルシートにCSSフォントのURLを追加すると、内蔵テンプレートと一緒に利用できます。"
+      },
+      "licensing": {
+        "question": "このプロジェクトはオープンソースですか？",
+        "answer": "はい。text-on-gifプロジェクトをもとにMITライセンスで公開しています。"
+      },
+      "support": {
+        "question": "サポートはどこで受けられますか？",
+        "answer": "チュートリアルでトラブルシューティングを確認するか、GitHubでIssueを作成してください。"
+      }
+    }
+  },
+  "SEO": {
+    "siteName": "AddTextToGIF",
+    "home": {
+      "title": "GIFにテキストを追加 | タイムライン対応字幕エディター",
+      "description": "無料のNext.js製GIF字幕スタジオ。フレームを分割し、オーバーレイをタイムラインに合わせてブラウザだけで書き出します。",
+      "keywords": "gif テキスト追加, gif 字幕, gif エディター, gif タイムライン",
+      "canonical": "/",
+      "h1": "GIFに映画のような字幕を",
+      "h2": "数秒で字幕・コールアウト・ミームテキストを作成。"
+    },
+    "tutorial": {
+      "title": "GIFにテキストを入れる方法 | ステップバイステップ",
+      "description": "AddTextToGIFでフレーム分解、オーバーレイデザイン、字幕付きGIFの書き出し手順を学びましょう。",
+      "keywords": "gif チュートリアル, gif 字幕 作り方, gif テキスト ガイド",
+      "canonical": "/tutorial",
+      "h1": "字幕付きGIFの作り方ガイド",
+      "h2": "アップロードからエクスポートまでを完全解説。"
+    },
+    "faq": {
+      "title": "AddTextToGIF FAQ | ファイル上限・プライバシー・ライセンス",
+      "description": "対応GIFサイズ、プライバシー、オープンソースライセンス、コラボ機能に関する回答。",
+      "keywords": "gif エディター faq, gif プライバシー, gif ライセンス",
+      "canonical": "/faq",
+      "h1": "よくある質問",
+      "h2": "ファイル・プライバシー・サポートに関する回答。"
+    }
+  }
+}
