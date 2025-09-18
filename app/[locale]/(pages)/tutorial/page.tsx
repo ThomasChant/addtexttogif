@@ -1,0 +1,127 @@
+import type {Metadata} from 'next';
+import {createTranslator, getTranslations} from 'next-intl/server';
+import {Button} from '../../../../components/ui/button';
+import {Card, CardContent, CardDescription, CardHeader, CardTitle} from '../../../../components/ui/card';
+import {Link} from '../../../../i18n/routing';
+import {buildCanonicalUrl, buildLanguageAlternates, getMetadataBase, parseKeywords} from '../../../../lib/seo';
+
+const sectionKeys = ['prepare', 'upload', 'design', 'render'] as const;
+const workflowKeys = ['shortcuts', 'styles', 'export'] as const;
+
+export async function generateMetadata({
+  params
+}: {
+  params: {locale: string};
+}): Promise<Metadata> {
+  const {locale} = params;
+  const messages = (await import(`../../../../messages/${locale}.json`)).default;
+  const t = createTranslator({locale, messages});
+  const seo = t.raw('SEO.tutorial') as {
+    title: string;
+    description: string;
+    keywords: string | string[];
+    canonical: string;
+  };
+  const siteName = t('SEO.siteName');
+  const canonicalUrl = buildCanonicalUrl(locale, seo.canonical);
+
+  return {
+    metadataBase: getMetadataBase(),
+    title: seo.title,
+    description: seo.description,
+    keywords: parseKeywords(seo.keywords),
+    alternates: {
+      canonical: canonicalUrl,
+      languages: buildLanguageAlternates(seo.canonical)
+    },
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      url: canonicalUrl,
+      siteName,
+      locale,
+      type: 'article'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seo.title,
+      description: seo.description
+    }
+  };
+}
+
+export default async function TutorialPage({params}: {params: {locale: string}}) {
+  const {locale} = params;
+  const t = await getTranslations({locale, namespace: 'Tutorial'});
+  const seo = await getTranslations({locale, namespace: 'SEO.tutorial'});
+  const navigation = await getTranslations({locale, namespace: 'Navigation'});
+  const home = await getTranslations({locale, namespace: 'Home'});
+
+  return (
+    <div className="space-y-16 pb-16">
+      <section className="bg-muted/40">
+        <div className="container mx-auto flex flex-col gap-6 px-4 py-16 text-center lg:max-w-3xl">
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{seo('h1')}</h1>
+          <p className="text-lg text-muted-foreground">{t('intro')}</p>
+          <h2 className="text-2xl font-semibold text-muted-foreground">{seo('h2')}</h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button asChild>
+              <Link href="/">{navigation('home')}</Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href="/#editor">{home('heroPrimaryCta')}</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4">
+        <div className="grid gap-6 md:grid-cols-2">
+          {sectionKeys.map((key) => (
+            <Card key={key} className="h-full">
+              <CardHeader>
+                <CardTitle>{t(`sections.${key}.title`)}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-base text-muted-foreground">{t(`sections.${key}.content`)}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4" id="workflow">
+        <div className="mx-auto max-w-3xl text-center">
+          <h3 className="text-3xl font-semibold tracking-tight">{t('workflowHeading')}</h3>
+          <p className="mt-3 text-base text-muted-foreground">{t('intro')}</p>
+        </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {workflowKeys.map((key) => (
+            <Card key={key} className="h-full border-primary/20">
+              <CardHeader>
+                <CardTitle>{t(`workflowItems.${key}.title`)}</CardTitle>
+                <CardDescription>{t(`workflowItems.${key}.description`)}</CardDescription>
+              </CardHeader>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4">
+        <div className="rounded-2xl border bg-muted/30 p-8 text-center">
+          <p className="text-lg text-muted-foreground">
+            {t('intro')}
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <Button asChild size="lg">
+              <Link href="/">{navigation('home')}</Link>
+            </Button>
+            <Button asChild size="lg" variant="secondary">
+              <Link href="/#editor">{home('heroPrimaryCta')}</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

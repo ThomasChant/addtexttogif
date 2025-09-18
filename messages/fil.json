@@ -1,0 +1,221 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "tutorial": "Tutorial",
+    "faq": "FAQ",
+    "menuTitle": "Menu",
+    "languageLabel": "Piliin ang wika"
+  },
+  "Footer": {
+    "tagline": "Gumawa ng naka-time na mga subtitle, anotasyon, at callout para sa mga animated GIF sa anumang wika.",
+    "productTitle": "Produkto",
+    "resourcesTitle": "Mga Resource",
+    "openSourceTitle": "Open source",
+    "openSourceDescription": "Hango sa {repo} at pinalawak para sa mga propesyonal na workflow ng subtitling.",
+    "rights": "Lahat ng karapatan ay nakalaan.",
+    "links": {
+      "home": "Home",
+      "tutorial": "Tutorial",
+      "faq": "FAQ",
+      "editor": "Simulan",
+      "workflow": "Gabay sa workflow",
+      "licensing": "Lisensya",
+      "privacy": "Privacy",
+      "support": "Suporta"
+    }
+  },
+  "Editor": {
+    "title": "Interactive na GIF subtitle studio",
+    "subtitle": "Mag-upload ng GIF, maglagay ng stylized na text overlay, at mag-export ng pulidong animation sa loob ng ilang minuto.",
+    "upload": {
+      "label": "I-upload ang animated GIF",
+      "hint": "Sa browser mo lang pinoproseso ang file. Walang ina-upload sa server.",
+      "placeholder": "I-drop ang GIF dito o gumamit ng file picker"
+    },
+    "defaults": {
+      "overlayText": "Idagdag ang caption"
+    },
+    "errors": {
+      "generic": "Nagkaroon ng error sa pagproseso ng GIF. Pakisubukang muli."
+    },
+    "preview": {
+      "alt": "Preview frame {index}"
+    },
+    "actions": {
+      "play": "I-play",
+      "pause": "I-pause",
+      "resetPlayback": "I-reset",
+      "addOverlay": "Magdagdag ng overlay",
+      "remove": "Tanggalin",
+      "renderGif": "I-render ang GIF",
+      "rendering": "Nagre-render...",
+      "downloadGif": "I-download ang GIF"
+    },
+    "timeline": {
+      "total": "Kabuuang tagal: {duration}",
+      "position": "Kasalukuyang posisyon: {current}",
+      "frameLabel": "Frame {index}",
+      "framesTitle": "Mga na-extract na frame",
+      "framesDescription": "Ini-extract ang bawat frame para masuri mo ang timing hanggang sa millisecond."
+    },
+    "overlays": {
+      "title": "Mga overlay na may oras",
+      "description": "Gumawa ng maraming caption o callout, pumili ng template ng istilo at i-drag ito direkta sa preview.",
+      "itemTitle": "Overlay",
+      "fields": {
+        "text": "Teksto ng caption",
+        "start": "Simula (ms)",
+        "end": "Wakas (ms)",
+        "template": "Template"
+      },
+      "hints": {
+        "drag": "I-drag ang overlay sa preview para i-fine tune ang posisyon.",
+        "duration": "Ang simula at wakas ay nasa millisecond para sa eksaktong timing kada frame."
+      },
+      "empty": "Magdagdag ng unang overlay upang simulan ang pagdisenyo ng caption."
+    },
+    "export": {
+      "title": "Export",
+      "description": "Mag-render ng bagong GIF na may mga overlay mo. Lahat ng pagproseso ay lokal sa iyong browser."
+    }
+  },
+  "Home": {
+    "heroTitle": "Magdagdag ng teksto sa GIF na parang nag-e-edit ng video",
+    "heroSubtitle": "Hatiin ang GIF sa mga frame, i-map ang mga subtitle sa timeline, at mag-export ng quality na animation mula mismo sa browser.",
+    "heroPrimaryCta": "Simulan ang pag-edit",
+    "heroSecondaryCta": "Tingnan ang tutorial",
+    "featureTitle": "Bakit pinipili ng mga creator ang AddTextToGIF",
+    "featureSubtitle": "Ginawa para sa mga marketer, tagapagturo at meme creator na kailangan ng pixel-perfect na caption.",
+    "features": {
+      "split": {
+        "title": "Kontrol sa bawat frame",
+        "description": "Awtomatikong pinaghiwalay ang bawat GIF frame at ipinapakita ang delay kaya alam mo kung ano ang lalabas at kailan."
+      },
+      "timeline": {
+        "title": "Timeline na parang video",
+        "description": "I-sync ang maraming overlay na may millisecond accuracy gamit ang interactive na playback controls."
+      },
+      "drag": {
+        "title": "Paglalagay gamit ang drag & drop",
+        "description": "I-posisyon ang mga caption sa preview canvas—walang hulaan sa coordinates."
+      },
+      "templates": {
+        "title": "Mga disenyo ng template",
+        "description": "Mamili mula sa mga pulidong preset na inspirasyon ng subtitles, social promos, at tutorial callouts."
+      }
+    },
+    "workflowTitle": "Tatlong hakbang sa tapos na GIF",
+    "workflowSubtitle": "Workflow ng mga propesyonal na suite nang walang sobrang komplikasyon.",
+    "workflow": {
+      "upload": {
+        "title": "1. I-upload ang GIF",
+        "description": "I-drop ang file o i-paste ang link upang makuha ang malinaw na mga frame at orihinal na timing."
+      },
+      "overlay": {
+        "title": "2. Bumuo ng mga overlay",
+        "description": "Magdagdag ng caption, pumili ng template at ilagay ang text sa eksaktong posisyon."
+      },
+      "review": {
+        "title": "3. I-review ang timeline",
+        "description": "I-scrub ang timeline para siguraduhin na tugma ang bawat overlay sa tamang sandali."
+      },
+      "export": {
+        "title": "4. I-export at ibahagi",
+        "description": "I-render at i-download ang GIF na handa para sa social, email, at chat."
+      }
+    },
+    "faqPreviewTitle": "May tanong bago magsimula?",
+    "faqPreviewSubtitle": "Sinasagot ng FAQ ang tungkol sa file limits, lisensya, privacy at tips sa collaboration.",
+    "faqPreviewCta": "Bisitahin ang FAQ"
+  },
+  "Tutorial": {
+    "title": "Sunod-sunod na gabay",
+    "intro": "Sundan ang gabay na ito para gawing captioned animation ang raw na GIF na may perpektong timing.",
+    "sections": {
+      "prepare": {
+        "title": "1. Ihanda ang assets",
+        "content": "Pumili ng high-quality na GIF o mag-convert ng maikling video clip. Pinakamainam kung mas maiksi sa 30 segundo."
+      },
+      "upload": {
+        "title": "2. I-upload at suriin ang mga frame",
+        "content": "Gamitin ang uploader sa homepage. Pagkatapos ma-proseso, tingnan ang bawat frame para makuha ang pacing."
+      },
+      "design": {
+        "title": "3. Idisenyo ang mga overlay",
+        "content": "Magdagdag ng overlay sa bawat mensahe. Pumili ng template, i-edit ang kopya, ayusin ang simula/wakas at i-drag sa lokasyon."
+      },
+      "render": {
+        "title": "4. I-render at i-deploy",
+        "content": "I-click ang 'I-render ang GIF'. Pagkatapos, i-download at gamitin ito sa email, chat, o social media."
+      }
+    },
+    "workflowHeading": "Mga tip sa workflow",
+    "workflowItems": {
+      "shortcuts": {
+        "title": "Keyboard shortcuts",
+        "description": "Space para mag-play/pause at arrow keys para gumalaw sa timeline kada 100 ms."
+      },
+      "styles": {
+        "title": "Pag-adjust ng template",
+        "description": "I-duplicate ang overlay para paghaluin ang mga estilo sa iba't ibang eksena. Panatilihin ng templates ang pare-parehong typograpiya."
+      },
+      "export": {
+        "title": "Optimized na export",
+        "description": "Awtomatikong na-ko-compress ang mga rendered GIF kaya handa na silang i-share kaagad."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Mga madalas itanong",
+    "intro": "Lahat tungkol sa mga suportadong file, privacy at pakikipagtulungan.",
+    "items": {
+      "files": {
+        "question": "Anong laki ng GIF ang suportado?",
+        "answer": "Inirerekomenda namin ang hanggang 20 MB. Mas malalaki ay pwede pero mas matagal, at nananatiling lokal ang pagproseso."
+      },
+      "privacy": {
+        "question": "Ina-upload ba ang GIF ko sa server?",
+        "answer": "Hindi. Sa browser lang nagaganap ang pag-decode, pag-edit at pag-render. Hindi lumalabas ang data sa iyong device."
+      },
+      "fonts": {
+        "question": "Pwede bang gumamit ng custom fonts?",
+        "answer": "Oo. Idagdag ang mga CSS font URL sa iyong brand stylesheet at lalabas sila katabi ng built-in templates."
+      },
+      "licensing": {
+        "question": "Open source ba ang proyekto?",
+        "answer": "Oo. Hango ang editor sa text-on-gif at naka-MIT license."
+      },
+      "support": {
+        "question": "Paano makakakuha ng suporta?",
+        "answer": "Tingnan ang tutorial para sa troubleshooting o magbukas ng GitHub issue para sa mga kahilingan."
+      }
+    }
+  },
+  "SEO": {
+    "siteName": "AddTextToGIF",
+    "home": {
+      "title": "Magdagdag ng teksto sa GIF online | Timeline subtitle editor",
+      "description": "Libreng Next.js studio para sa GIF. Hatiin ang mga frame, i-sync ang overlays at mag-export ng captioned GIF sa browser mo.",
+      "keywords": "magdagdag ng text sa gif, gif subtitle, gif editor, gif timeline",
+      "canonical": "/",
+      "h1": "Bigyan ng cinematic na caption ang iyong GIF",
+      "h2": "Lumikha ng subtitles, callout at meme text sa ilang segundo."
+    },
+    "tutorial": {
+      "title": "Paano magdagdag ng teksto sa GIF | Step-by-step tutorial",
+      "description": "Alamin kung paano hatiin ang mga frame, magdisenyo ng overlay at mag-export ng captioned GIF gamit ang AddTextToGIF.",
+      "keywords": "gif tutorial, gif subtitle, gabay sa text ng gif",
+      "canonical": "/tutorial",
+      "h1": "Gabay sa paggawa ng captioned GIF",
+      "h2": "Masterin ang proseso mula upload hanggang export."
+    },
+    "faq": {
+      "title": "AddTextToGIF FAQ | File limit, privacy, lisensya",
+      "description": "Mga sagot tungkol sa suportadong GIF size, privacy, open-source na lisensya at collaboration features.",
+      "keywords": "gif editor faq, gif privacy, lisensya ng gif",
+      "canonical": "/faq",
+      "h1": "Mga madalas itanong",
+      "h2": "Mga sagot tungkol sa files, privacy at suporta."
+    }
+  }
+}

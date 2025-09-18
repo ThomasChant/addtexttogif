@@ -1,0 +1,221 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "tutorial": "Tutorial",
+    "faq": "FAQ",
+    "menuTitle": "Menü",
+    "languageLabel": "Sprache wählen"
+  },
+  "Footer": {
+    "tagline": "Erstelle zeitgesteuerte Untertitel, Hinweise und Callouts für animierte GIFs in jeder Sprache.",
+    "productTitle": "Produkt",
+    "resourcesTitle": "Ressourcen",
+    "openSourceTitle": "Open Source",
+    "openSourceDescription": "Inspiriert von {repo} und für professionelle Untertitel-Workflows erweitert.",
+    "rights": "Alle Rechte vorbehalten.",
+    "links": {
+      "home": "Startseite",
+      "tutorial": "Tutorial",
+      "faq": "FAQ",
+      "editor": "Jetzt starten",
+      "workflow": "Workflow-Leitfaden",
+      "licensing": "Lizenz",
+      "privacy": "Datenschutz",
+      "support": "Support"
+    }
+  },
+  "Editor": {
+    "title": "Interaktives GIF-Untertitelstudio",
+    "subtitle": "GIF hochladen, gestaltete Text-Overlays platzieren und in wenigen Minuten eine perfekte Animation exportieren.",
+    "upload": {
+      "label": "Animiertes GIF hochladen",
+      "hint": "Die Verarbeitung findet ausschließlich in deinem Browser statt. Es wird nichts gespeichert.",
+      "placeholder": "GIF hier ablegen oder Dateiauswahl verwenden"
+    },
+    "defaults": {
+      "overlayText": "Untertitel hinzufügen"
+    },
+    "errors": {
+      "generic": "Beim Verarbeiten des GIF ist ein Fehler aufgetreten. Bitte versuche es erneut."
+    },
+    "preview": {
+      "alt": "Vorschau Bild {index}"
+    },
+    "actions": {
+      "play": "Abspielen",
+      "pause": "Pause",
+      "resetPlayback": "Zurücksetzen",
+      "addOverlay": "Overlay hinzufügen",
+      "remove": "Entfernen",
+      "renderGif": "GIF rendern",
+      "rendering": "Rendern...",
+      "downloadGif": "GIF herunterladen"
+    },
+    "timeline": {
+      "total": "Gesamtdauer: {duration}",
+      "position": "Aktuelle Position: {current}",
+      "frameLabel": "Frame {index}",
+      "framesTitle": "Extrahierte Frames",
+      "framesDescription": "Jeder GIF-Frame wird extrahiert, damit du die Zeiten auf die Millisekunde prüfen kannst."
+    },
+    "overlays": {
+      "title": "Zeitgesteuerte Overlays",
+      "description": "Erstelle mehrere Untertitel oder Callouts, wähle eine Stilvorlage und positioniere sie direkt in der Vorschau.",
+      "itemTitle": "Overlay",
+      "fields": {
+        "text": "Untertiteltext",
+        "start": "Start (ms)",
+        "end": "Ende (ms)",
+        "template": "Vorlage"
+      },
+      "hints": {
+        "drag": "Ziehe Overlays in der Vorschau, um die Position zu justieren.",
+        "duration": "Start- und Endzeiten werden in Millisekunden angegeben – ideal für framegenaue Untertitel."
+      },
+      "empty": "Füge dein erstes Overlay hinzu, um mit dem Design zu beginnen."
+    },
+    "export": {
+      "title": "Export",
+      "description": "Rendere ein neues GIF mit deinen Overlays – komplett lokal im Browser."
+    }
+  },
+  "Home": {
+    "heroTitle": "Text mit Video-Präzision zum GIF hinzufügen",
+    "heroSubtitle": "Zerlege jedes GIF in Frames, richte Untertitel auf der Zeitachse aus und exportiere Studioqualität direkt im Browser.",
+    "heroPrimaryCta": "Jetzt bearbeiten",
+    "heroSecondaryCta": "Tutorial ansehen",
+    "featureTitle": "Warum sich Kreative für AddTextToGIF entscheiden",
+    "featureSubtitle": "Speziell für Marketer, Trainer und Meme-Macher entwickelt, die pixelgenaue Untertitel benötigen.",
+    "features": {
+      "split": {
+        "title": "Kontrolle Frame für Frame",
+        "description": "Jeder Frame wird automatisch getrennt, Verzögerungen werden sichtbar – du weißt immer, was wann passiert."
+      },
+      "timeline": {
+        "title": "Zeitachse wie im Videoschnitt",
+        "description": "Synchronisiere mehrere Overlays millisekundengenau mit den interaktiven Wiedergabe-Tools."
+      },
+      "drag": {
+        "title": "Platzieren per Drag & Drop",
+        "description": "Positioniere Untertitel direkt auf der Vorschau – keine Koordinaten-Raten mehr."
+      },
+      "templates": {
+        "title": "Gestalterische Vorlagen",
+        "description": "Wähle polierte Typografie-Presets, inspiriert von Untertiteln, Social-Promos und Tutorial-Hinweisen."
+      }
+    },
+    "workflowTitle": "Drei Schritte zum fertigen GIF",
+    "workflowSubtitle": "Unser Ablauf orientiert sich an Profi-Tools – ohne deren Komplexität.",
+    "workflow": {
+      "upload": {
+        "title": "1. GIF hochladen",
+        "description": "Datei ablegen oder Link einfügen, um saubere Frames samt Timing zu erhalten."
+      },
+      "overlay": {
+        "title": "2. Overlays gestalten",
+        "description": "Untertitel hinzufügen, Vorlagen wählen und exakt platzieren."
+      },
+      "review": {
+        "title": "3. Zeitachse prüfen",
+        "description": "Scrubbe durch die Timeline und stelle sicher, dass jede Einblendung den richtigen Moment trifft."
+      },
+      "export": {
+        "title": "4. Exportieren & teilen",
+        "description": "Rendern, herunterladen und für Social Media, E-Mail oder Chat bereitstellen."
+      }
+    },
+    "faqPreviewTitle": "Noch Fragen vor dem Start?",
+    "faqPreviewSubtitle": "Im FAQ findest du Infos zu Dateigrößen, Lizenzen, Datenschutz und Zusammenarbeit.",
+    "faqPreviewCta": "Zum FAQ"
+  },
+  "Tutorial": {
+    "title": "Schritt-für-Schritt-Anleitung",
+    "intro": "Diese Anleitung führt dich vom Roh-GIF zur untertitelten Animation mit perfektem Timing.",
+    "sections": {
+      "prepare": {
+        "title": "1. Assets vorbereiten",
+        "content": "Wähle ein hochwertiges GIF oder konvertiere einen kurzen Clip. Ideal sind bis zu 30 Sekunden Länge."
+      },
+      "upload": {
+        "title": "2. Hochladen & Frames prüfen",
+        "content": "Nutze den Uploader auf der Startseite. Nach der Verarbeitung kannst du durch alle Frames scrollen und das Tempo verstehen."
+      },
+      "design": {
+        "title": "3. Overlays gestalten",
+        "content": "Füge für jede Botschaft ein Overlay hinzu. Vorlage wählen, Text anpassen, Start/Ende justieren und positionieren."
+      },
+      "render": {
+        "title": "4. Rendern & veröffentlichen",
+        "content": "Klicke auf \"GIF rendern\". Danach herunterladen und in Mails, Chats oder Posts einbetten."
+      }
+    },
+    "workflowHeading": "Workflow-Tipps",
+    "workflowItems": {
+      "shortcuts": {
+        "title": "Tastenkürzel",
+        "description": "Mit Leertaste abspielen/pausieren, mit Pfeiltasten die Zeitachse in 100-ms-Schritten bewegen."
+      },
+      "styles": {
+        "title": "Vorlagen anpassen",
+        "description": "Dupliziere Overlays, um Stile über Szenen hinweg zu kombinieren. Vorlagen sichern konsistente Typografie."
+      },
+      "export": {
+        "title": "Optimierte Exporte",
+        "description": "Gerenderte GIFs werden automatisch komprimiert – ideal zum sofortigen Teilen."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "intro": "Alles über unterstützte Dateien, Datenschutz und Zusammenarbeit.",
+    "items": {
+      "files": {
+        "question": "Welche GIF-Größen werden unterstützt?",
+        "answer": "Wir empfehlen Dateien bis 20 MB. Größere GIFs funktionieren ebenfalls, benötigen aber mehr Zeit – die Verarbeitung bleibt lokal."
+      },
+      "privacy": {
+        "question": "Werden meine GIFs hochgeladen?",
+        "answer": "Nein. Decodierung, Bearbeitung und Rendering finden komplett im Browser statt. Nichts verlässt dein Gerät."
+      },
+      "fonts": {
+        "question": "Kann ich eigene Schriften verwenden?",
+        "answer": "Ja. Füge CSS-Font-URLs in deinem Brand-Stylesheet hinzu, dann stehen sie neben den Vorlagen bereit."
+      },
+      "licensing": {
+        "question": "Ist das Projekt Open Source?",
+        "answer": "Ja. Der Editor ist vom text-on-gif-Projekt inspiriert und steht unter MIT-Lizenz."
+      },
+      "support": {
+        "question": "Wie bekomme ich Support?",
+        "answer": "Sieh dir das Tutorial für Troubleshooting an oder erstelle ein GitHub-Issue für Wünsche."
+      }
+    }
+  },
+  "SEO": {
+    "siteName": "AddTextToGIF",
+    "home": {
+      "title": "Text zum GIF online hinzufügen | GIFs mit Timeline untertiteln",
+      "description": "Kostenloses Next.js-Untertitelstudio für GIFs. Frames trennen, Overlays zur Timeline ausrichten und im Browser exportieren.",
+      "keywords": "text zu gif hinzufügen, gif untertitel, gif caption editor, gif timeline",
+      "canonical": "/",
+      "h1": "GIFs mit filmreifen Untertiteln versehen",
+      "h2": "Erstelle Untertitel, Callouts und Meme-Captions in Sekunden."
+    },
+    "tutorial": {
+      "title": "Text zu einem GIF hinzufügen | Schritt-für-Schritt-Tutorial",
+      "description": "Lerne, wie du GIF-Frames trennst, Overlays gestaltest und animierte GIFs mit AddTextToGIF exportierst.",
+      "keywords": "gif tutorial, gif untertitel, gif text anleitung",
+      "canonical": "/tutorial",
+      "h1": "Leitfaden für untertitelte GIFs",
+      "h2": "Beherrsche den Ablauf vom Upload bis zum Export."
+    },
+    "faq": {
+      "title": "AddTextToGIF FAQ | Dateigrößen, Datenschutz, Lizenz",
+      "description": "Antworten zu unterstützten GIFs, Datenschutz, Open-Source-Lizenzierung und Zusammenarbeit.",
+      "keywords": "gif editor faq, gif datenschutz, gif lizenz",
+      "canonical": "/faq",
+      "h1": "Häufig gestellte Fragen",
+      "h2": "Antworten zu Dateien, Datenschutz und Support."
+    }
+  }
+}
